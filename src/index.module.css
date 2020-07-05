@@ -1,0 +1,50 @@
+:root {
+  --primary-color: #8795DD;
+  --primary-color-light: #8795DD;
+}
+
+:global * {
+  box-sizing: border-box;
+}
+
+:global html {
+  color: rgba(0, 0, 0, 0.9);
+  font: 100%/1.75 VCROSDMono,Helvetica,Arial,sans-serif;
+}
+
+:global body {
+  font-kerning: normal;
+  font-family: 'VCROSDMono','Helvetica','Arial',sans-serif;
+  font-feature-settings: "kern", "liga", "clig", "calt";
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  word-wrap: break-word;
+}
+
+:global(pre),
+:global(code) {
+  font-family: VCROSDMono,Helvetica,Arial,sans-serif;
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+:global pre {
+  border-radius: 10px;
+  overflow: auto;
+  padding: 1em;
+}
+
+:global a {
+  color: var(--primary-color);
+}
+:global a:hover {
+  text-decoration: none;
+}
+
+:global p,
+:global pre,
+:global ul,
+:global ol {
+  margin-top: 0;
+  margin-bottom: 1.75rem;
+}
