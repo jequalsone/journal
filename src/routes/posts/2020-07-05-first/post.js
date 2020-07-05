@@ -1,6 +1,6 @@
 export default {
   title: `ONE`,
-  tags: ['FITNESS', 'FOOD'],
+  tags: ['GYM', 'FOOD'],
   spoiler: "FILLER CONTENT",
   getContent: () => import('./document.mdx'),
 }
